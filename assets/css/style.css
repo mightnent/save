@@ -150,20 +150,11 @@ fieldset {
     transition: .4s;
 }
 .logo a {
-    font-size: 60px;
+    font-size: 24px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #F6A31A;
-}
-.logo {
-    padding-top: 100px;
-
-
-}
-
-.transparent{
-    opacity: 0;
+    color: #fff;
 }
 
 .mainmenu .navbar-nav li a {
@@ -208,7 +199,7 @@ fieldset {
     transition: .3s;
 }
 .menu-bg .logo {
-    padding-top: 18px;
+    
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -218,6 +209,15 @@ fieldset {
 .menu-bg .mainmenu .navbar-nav li a:hover {
     color: #F6A31A;
 }
+@media only screen and (max-width: 767px){
+.navbar-toggle {
+    margin-top: -50px !important;
+    }
+.navbar-toggle .icon-bar{
+    background-color: #fff !important;
+}
+}
+
 /*02. END MENU DESIGN AREA*/
 /*03.START HOME DESIGN AREA*/
 
@@ -565,6 +565,16 @@ a.get-start-btn:hover {
 }
 /*06. END GET-STRETED AREA*/
 /*07. START TEAM DESIGN AREA*/
+
+#team{    
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
 
 .single-team {
     background: #f6f6f6 none repeat scroll 0 0;

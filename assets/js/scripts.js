@@ -54,18 +54,25 @@
         /*END MENU HIDE*/
 
         /*START BOOTSTRAP SCROLL-SPY*/
-        $('body').scrollspy({
-            target: '.navbar-collapse',
-            offset: 195
-        });
+        // $('body').scrollspy({
+        //     target: '.navbar-collapse',
+        //     offset: 195
+        // });
         /*END BOOTSTRAP SCROLL-SPY*/
 
         /*START CHANGE MENU BACKGROUND JS*/
+        // $(window).on('scroll', function() {
+        //     if ($(window).scrollTop() > 30) {
+        //         $('.logo').addClass('transparent');
+        //     } else {
+        //         $('.logo').removeClass('transparent');
+        //     }
+        // });
         $(window).on('scroll', function() {
-            if ($(window).scrollTop() > 30) {
-                $('.logo').addClass('transparent');
+            if ($(window).scrollTop() > 200) {
+                $('.header-top-area').addClass('menu-bg');
             } else {
-                $('.logo').removeClass('transparent');
+                $('.header-top-area').removeClass('menu-bg');
             }
         });
         /*END CHANGE MENU BACKGROUND JS*/
