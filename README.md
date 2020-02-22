@@ -1,3 +1,3 @@
-# save
+# Savour!
 
-This is just a website. Nothing to look here. Go away
+Welcome to Savour!'s website! :)
