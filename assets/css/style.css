@@ -209,12 +209,19 @@ fieldset {
 .menu-bg .mainmenu .navbar-nav li a:hover {
     color: #F6A31A;
 }
+
+
+
 @media only screen and (max-width: 767px){
 .navbar-toggle {
     margin-top: -50px !important;
     }
 .navbar-toggle .icon-bar{
     background-color: #fff !important;
+}
+
+a.slide-btn{
+    width: 300px !important;
 }
 }
 
@@ -250,7 +257,7 @@ a.slide-btn {
     margin-top: 10px;
     padding: 12px 20px;
     text-transform: uppercase;
-    width: 160px;
+    width: 350px;
     transition: .5s;
     border-radius: 4px;
 }
