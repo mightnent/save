@@ -125,7 +125,7 @@
             console.log("form1");
             e.preventDefault();
             var jqxhr = $.ajax({
-                url: url_Merchant,
+                url: url_B2B,
                 method: "GET",
                 dataType: "json",
                 data: $form_merchant.serialize()
@@ -141,3 +141,5 @@
 })(jQuery);
 
 
+// js
+// document.getElementById("retainable-rss-embed").data-maxcols = "1";

@@ -125,7 +125,7 @@ fieldset {
     width: 80px;
 }
 .section-padding {
-    padding: 60px 0;
+    /* padding: 60px 0; */
 }
 .gry-bg {
     background: #f6f6f6;
@@ -208,22 +208,15 @@ fieldset {
 }
 .menu-bg .mainmenu .navbar-nav li a:hover {
     color: #F6A31A;
+    cursor: pointer;
 }
 
-
-
-@media only screen and (max-width: 767px){
-.navbar-toggle {
-    margin-top: -50px !important;
-    }
-.navbar-toggle .icon-bar{
-    background-color: #fff !important;
+#medium{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
 }
 
-a.slide-btn{
-    width: 300px !important;
-}
-}
 
 /*02. END MENU DESIGN AREA*/
 /*03.START HOME DESIGN AREA*/
@@ -574,13 +567,15 @@ a.get-start-btn:hover {
 /*07. START TEAM DESIGN AREA*/
 
 #team{    
+    padding-top: 70px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    margin-bottom: 100px;
+
 }
 
 .single-team {
@@ -652,6 +647,11 @@ ul.team-social i:hover {
 .single-project-complete i {
     color: #F6A31A;
     font-size: 45px;
+}
+
+.single-project-complete2 img {
+    height: 100px;
+    width: 100px;
 }
 /*08.START FUN FACT DESIGN AREA*/
 /*09.START WORK DESIGN AREA*/
@@ -764,17 +764,17 @@ ul.work li:hover {
     margin-bottom: 20px;
 }
 .testimonial-author img {
-    border: 3px solid #F6A31A;
-    border-radius: 50%;
+    
+    /* border-radius: 50%; */
     height: auto;
     width: 100px;
 }
 .single-testimonial p {
     padding: 0 15px;
-    color: #fff;
+    color: rgb(46, 46, 46);
 }
-.single-testimonial > h5 {
-    color: #fff;
+.single-testimonial > h4 {
+    color: #F6A31A;
     margin-top: 15px;
 }
 .single-testimonial h6 {
@@ -783,7 +783,7 @@ ul.work li:hover {
     font-weight: 700;
 }
 .single-testimonial h6 {
-    color: #1da;
+    color: #F6A31A;
 }
 .testimonial-list .owl-pagination {
     margin-top: 10px;
@@ -801,7 +801,7 @@ ul.work li:hover {
 }
 .owl-carousel .owl-page span {
     display: block;
-    background: #fff;
+    background: rgb(27, 27, 27);
     width: 10px;
     height: 10px;
     margin: 5px 7px;
@@ -809,7 +809,7 @@ ul.work li:hover {
     opacity: 0.5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     border-radius: 20px;
-    color: #fff;
+    color: rgb(204, 204, 204);
 }
 .owl-carousel .owl-page.active span,
 .owl-controls.clickable .owl-page:hover span {
@@ -1189,7 +1189,11 @@ ul.contact-list i {
     
 }
 .text-muted {
-    color: #ddd;
+    color: #666;
+}
+
+.text-muted-white{
+    color: white;
 }
 .text-muted span {
     color: #F6A31A;
@@ -1201,7 +1205,100 @@ ul.contact-list i {
 /*15.END FOOTER DESIGN AREA*/
 
 
+/* medium */
 
 
+#blogs{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #F6A31A;
+}   
 
+.btn-primary{
+    background-color: #F6A31A;
+    border: none;
+}
+
+#essay{
+   width: 70%; 
+   margin-bottom: 70px;
+   padding-top: 100px;
+}
+
+#essay h3{
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #F6A31A;
+}
+
+#essay p{
+    margin-top: 2em;
+    font-size: 21px;
+    line-height: 1.58;
+    color: rgba(0, 0, 0, 0.84);
+    font-weight: 400;
+    margin-bottom: -0.46em;
+}
+
+
+.dropdown-menu a.dropdown-item{
+    color: #F6A31A !important;
+    float:right !important;
+    width: 100% !important;
+    padding-bottom: 0 !important ;
+    padding-top: 15px !important;
+    
+}
+.dropdown-menu a.dropdown-item:hover{
+    color: #666 !important;
+}
+
+
+@media only screen and (max-width: 767px){
+    .navbar-toggle {
+        margin-top: -50px !important;
+        }
+    
+    .navbar-toggle .icon-bar{
+        background-color: #fff !important;
+    }
+    
+    a.slide-btn{
+        width: 300px !important;
+    }
+    
+    #medium{    
+        width:90% !important;
+        padding-top: 70px !important;
+        margin: auto !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .single-project-complete2 img {
+        height: 70px !important;
+        width: 70px !important;
+    }
+
+    .text-muted {
+        color: #666;
+        font-size: 0.7em;
+    }
+
+    #essay{
+        width: 90%; 
+     }
+
+    #essay p{
+        margin-top: 2em;
+        font-size: 18px;
+        line-height: 1.58;
+        color: rgba(0, 0, 0, 0.84);
+        font-weight: 400;
+        margin-bottom: -0.46em;
+    }
+
+    
+    }
 
